@@ -1,14 +1,14 @@
-data_source: "user=test password=test00 dbname=test host=localhost port=5432 sslmode=disable"
+data_source: "user=dev password=devt00 dbname=dev host=localhost port=6565 sslmode=disable"
 pool_min: 1
 pool_max: 1
 
 # Rest Server
 rest_server_host: ""
-rest_server_port: 4002
+rest_server_port: 1234
 
 # GRPC Server
 grpc_server_host: ""
-grpc_server_port: 50051
+grpc_server_port: 70051
 
 # Api Gateway
 gateway_url: "http://localhost:3010"
