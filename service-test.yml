@@ -1,6 +1,6 @@
 data_source: "user=dev password=devt00 dbname=dev host=localhost port=6565 sslmode=disable"
-pool_min: 1
-pool_max: 1
+pool_min: 2
+pool_max: 2
 
 # Rest Server
 rest_server_host: ""
