@@ -1,6 +1,6 @@
-data_source: "user=dev password=devt00 dbname=dev host=localhost port=6565 sslmode=disable"
+data_source: "user=stage password=stage00 dbname=stage host=localhost port=6565 sslmode=disable"
 pool_min: 1
-pool_max: 5
+pool_max: 10
 
 # Rest Server
 rest_server_host: ""
@@ -17,5 +17,5 @@ gateway_url: "http://localhost:3010"
 logging_level: "debug"
 
 # Testing
-api_source: "test"
+api_source: "stage"
 
