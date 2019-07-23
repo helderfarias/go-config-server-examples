@@ -1,4 +1,4 @@
-data_source: "user=stage password=stage00 dbname=stage host=localhost port=6565 sslmode=disable"
+data_source: "user=stage1 password=stage001 dbname=stage host=localhost port=6565 sslmode=disable"
 pool_min: 1
 pool_max: 1
 
