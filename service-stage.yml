@@ -1,6 +1,6 @@
 data_source: "user=stage password=stage00 dbname=stage host=localhost port=6565 sslmode=disable"
 pool_min: 1
-pool_max: 10
+pool_max: 1
 
 # Rest Server
 rest_server_host: ""
